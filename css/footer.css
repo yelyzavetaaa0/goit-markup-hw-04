@@ -1,0 +1,18 @@
+.footer {
+  padding: 100px 0;
+  background: #2e2f42;
+}
+
+.footer-container {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.footer-desc {
+  font-weight: 400;
+  max-width: 264px;
+  color: #f4f4fd;
+}

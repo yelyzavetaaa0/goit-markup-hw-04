@@ -1,0 +1,22 @@
+.features {
+  background: #fff;
+  padding: 120px 0;
+}
+.features-list {
+  display: flex;
+  justify-content: center;
+  gap: 24px;
+}
+.features-item {
+  width: 264px;
+}
+.features-subtitle {
+  margin-bottom: 8px;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+}
+.features-desc {
+  font-weight: 400;
+  color: #434455;
+}

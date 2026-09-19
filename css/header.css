@@ -1,0 +1,50 @@
+.page-header {
+  border-bottom: 1px solid #e7e9fc;
+}
+.page-header .container {
+  display: flex;
+  align-items: center;
+}
+.accent {
+}
+.main-nav {
+  margin-left: 76px;
+}
+.main-nav-list {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+}
+.main-nav-item {
+}
+.main-nav-link {
+  display: block;
+  padding: 24px 0;
+  font-weight: 500;
+  color: #2e2f42;
+}
+.main-nav-link:hover,
+.main-nav-link:focus {
+  color: #404bbf;
+}
+.contacts {
+  font-style: normal;
+  margin-left: auto;
+}
+.contacts-list {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+}
+.contacts-item {
+}
+.contacts-link {
+  display: block;
+  padding: 24px 0;
+  font-weight: 400;
+  color: #434455;
+}
+.contacts-link:hover,
+.contacts-link:focus {
+  color: #404bbf;
+}
