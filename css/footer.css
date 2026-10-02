@@ -3,20 +3,18 @@
   background: #2e2f42;
 }
 
-/* Перетворюємо цей контейнер на горизонтальний флекс-ряд */
 .container-footer {
   display: flex;
-  align-items: baseline; /* Вирівнює заголовки WebStudio та Social media по одній лінії */
-  gap: 120px; /* Точна відстань між двома групами з макета */
+  align-items: flex-start;
 }
 
-/* Новий клас для лівого блоку — змушує логотип та опис стояти строго один під одним */
 .footer-info {
   display: flex;
   flex-direction: column;
+
+  margin-right: 120px;
 }
 
-/* Робимо логотип inline-block та додаємо відступ до опису */
 .footer-logo {
   display: inline-block;
   margin-bottom: 16px;
@@ -30,7 +28,6 @@
   margin: 0;
 }
 
-/* Усі інші ваші стилі (.footer-socials, .footer-socials-list тощо) залишаються без змін */
 .footer-socials {
 }
 
